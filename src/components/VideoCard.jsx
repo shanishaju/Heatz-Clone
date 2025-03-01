@@ -4,12 +4,20 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import video1 from "../assets/video2.mp4";
+import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
-import video3 from "../assets/video2.mp4";
-import video4 from "../assets/video2.mp4";
-import video5 from "../assets/video2.mp4";
-import video6 from "../assets/video2.mp4";
+import video3 from "../assets/video3.mp4";
+import video4 from "../assets/video4.mp4";
+import video5 from "../assets/video5.mp4";
+import video6 from "../assets/video6.mp4";
+import video7 from "../assets/video7.mp4";
+import video8 from "../assets/video8.mp4";
+import video9 from "../assets/video9.mp4";
+import video10 from "../assets/video10.mp4";
+
+
+
+
 
 function VideoCard() {
   return (
@@ -29,7 +37,6 @@ function VideoCard() {
           loop={true}
           autoplay={{ delay: 3000 }}
           navigation={true}
-          pagination={{ clickable: true }}
           modules={[Autoplay, Navigation, Pagination]}
           className="w-full"
           breakpoints={{
@@ -37,11 +44,11 @@ function VideoCard() {
             1024: { slidesPerView: 6 }, 
           }}
         >
-          {[video1, video2, video3, video4, video5, video6].map((videoSrc, index) => (
+          {[video1, video2, video3, video4, video5, video6,video7, video8, video9, video10, video5, video8].map((videoSrc, index) => (
             <SwiperSlide key={index} className="relative group">
               <video
                 src={videoSrc}
-                className="w-full h-[300px] object-cover rounded-lg shadow-lg"
+                className="w-full h-[300px] object-cover shadow-lg"
                 loop
                 muted
                 onMouseOver={(e) => e.target.play()}
