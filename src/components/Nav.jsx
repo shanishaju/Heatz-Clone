@@ -10,7 +10,7 @@ function Nav() {
                     <img src={heatzicon} alt="icon" className="w-full h-auto" />
                 </div>
 
-                <ul className="hidden md:flex space-x-12 text-green-400 text-lg font-medium">
+                <ul className="hidden md:flex space-x-10 text-green-400 text-lg font-light">
                     <li className="hover:text-white cursor-pointer transition">Audio</li>
                     <li className="hover:text-white cursor-pointer transition">Wearables</li>
                     <li className="hover:text-white cursor-pointer transition">Accessories</li>
