@@ -3,10 +3,10 @@ import product1 from "../assets/product1.png";
 import product2 from "../assets/product2.png";
 import product3 from "../assets/product3.png";
 import product4 from "../assets/product4.png";
-import image from "../assets/ZG27. 1.JPG";
-import video from "../assets/video2.mp4";
+import image from "../assets/ZS25.3.jpg";
+import video from "../assets/video3.mp4";
 
-function ViewAll() {
+function ViewAllD() {
   const [activeTab, setActiveTab] = useState("Accessories");
 
   return (
@@ -108,4 +108,4 @@ function ViewAll() {
   );
 }
 
-export default ViewAll;
+export default ViewAllD;

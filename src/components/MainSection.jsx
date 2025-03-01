@@ -11,11 +11,11 @@ import swiperImg5 from "../assets/swiper5.jpg"
 
 function MainSection() {
     return (
-        <div className="bg-black text-white py-20 px-30">
+        <div className="bg-black text-white py-20 px-6 sm:px-12 md:px-20 lg:px-30">
 
             <Box display="grid" gridTemplateColumns={{ xs: "1fr", md: "1fr 1fr" }} gap={3} >
                 <Box >
-                    <h1 className="text-2xl md:text-5xl font-bold leading-tight">
+                    <h1 className="text-xl md:text-4xl font-bold leading-tight">
                         Built for gamers, <br /> designed for <br /> victory.
                     </h1>
                 </Box>
@@ -34,8 +34,8 @@ function MainSection() {
                     // navigation={true}
                     // pagination={{ clickable: true }} 
                     modules={[Autoplay, Navigation, Pagination]}
-                    className="w-full max-w-7xl"
-                >
+                    className="w-full"
+                    >
                     <SwiperSlide className="relative">
                         <img src={swiperImg4} alt="Image 1" className="w-full h-full object-cover" />
                         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
