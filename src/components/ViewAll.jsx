@@ -5,11 +5,21 @@ import React, { useState } from "react";
 import image from "../assets/ZG27. 1.JPG";
 import video from "../assets/video2.mp4";
 import ProductCard from "./ProductCard";
-import { audio } from "../staticData";
+import { audio, featured } from "../staticData";
 
 function ViewAll() {
   const [activeTab, setActiveTab] = useState("Accessories");
-
+  //gettabdata function
+  const getTabData = ()=>{
+    switch(activeTab){
+      case "Audio":
+        return audio;
+      case "Accessories":
+        return featured;
+      default:
+        return [];
+    }
+  }
 
 
   return (
@@ -17,9 +27,10 @@ function ViewAll() {
       {/* Tabs */}
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center space-y-0 md:space-y-0">
         <div className="flex bg-gray-800 bg-opacity-80 rounded-full">
+
+          
           {["Audio", "Accessories"].map((item) => (
             <button
-              key={item}
               className={`px-6 py-2 text-white font-semibold rounded-full ${activeTab === item ? "bg-green-400 text-black" : "bg-transparent"
                 }`}
               onClick={() => setActiveTab(item)}
@@ -39,7 +50,7 @@ function ViewAll() {
 
         {/* Card 1 */}
 
-        {audio.map((audio) => (
+        {getTabData().map((audio) => (
           <ProductCard key={audio.image} {...audio} />
         ))}
 

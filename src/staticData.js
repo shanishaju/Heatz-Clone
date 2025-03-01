@@ -30,25 +30,27 @@ export const audio = [
     decription: "ZG27 - Wired music headphones with adjus...",
     price: "1,399",
   },
-
- 
 ];
+
  export const featured = [
     {
-        image: product5,
-        decription: "HB10: ANC + ENC Smart Color Multifunctio...",
-        price: "1,399",
-      },  {
-        image: product6,
-        decription: "HB6 - TWS earbuds with noise cancellatio...",
-        price: "2,399",
-      },  {
-        image: product7,
-        decription: "ZU32 - Smart Ring with Sleep & Health Mo...",
-        price: "3,399",
-      },  {
-        image: product8,
-        decription: "HW11 - Adventure Smartwatch HD IPS Large...",
-        price: "1,399",
-      },
+      image: product5,
+      decription: "HB10: ANC + ENC Smart Color Multifunctio...",
+      price: "1,399",
+    },  
+    {
+      image: product6,
+      decription: "HB6 - TWS earbuds with noise cancellatio...",
+      price: "2,399",
+    },  
+    {
+      image: product7,
+      decription: "ZU32 - Smart Ring with Sleep & Health Mo...",
+      price: "3,399",
+    },  
+    {
+      image: product8,
+      decription: "HW11 - Adventure Smartwatch HD IPS Large...",
+      price: "1,399",
+    },
 ]
