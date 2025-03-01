@@ -1,18 +1,21 @@
 import React, { useState } from "react";
-import product1 from "../assets/product1.png";
-import product2 from "../assets/product2.png";
-import product3 from "../assets/product3.png";
-import product4 from "../assets/product4.png";
+// import product2 from "../assets/product2.png";
+// import product3 from "../assets/product3.png";
+// import product4 from "../assets/product4.png";
 import image from "../assets/ZG27. 1.JPG";
 import video from "../assets/video2.mp4";
+import ProductCard from "./ProductCard";
+import { audio } from "../staticData";
 
 function ViewAll() {
   const [activeTab, setActiveTab] = useState("Accessories");
 
+
+
   return (
-    <div className="w-full bg-black px-6 md:px-12 lg:px-30 py-6">
+    <div className="w-full bg-black px-6 md:px-12 lg:px-30 ">
       {/* Tabs */}
-      <div className="flex flex-col md:flex-row justify-center md:justify-between items-center space-y-4 md:space-y-0">
+      <div className="flex flex-col md:flex-row justify-center md:justify-between items-center space-y-0 md:space-y-0">
         <div className="flex bg-gray-800 bg-opacity-80 rounded-full">
           {["Audio", "Accessories"].map((item) => (
             <button
@@ -33,20 +36,16 @@ function ViewAll() {
 
       {/* Cards Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-        {/* Card 1 */}
-        <div className="bg-white text-black rounded-xl shadow-lg p-4 transition-transform transform hover:scale-105  w-full sm:w-72 mx-auto">
-          <img
-            src={product1}
-            alt="Product"
-            className="w-full h-auto  object-cover rounded-md"
-          />
-          <h3 className="text-sm font-semibold mt-3 px-3">
-            ZG27 - Wired music headphones with adjus...
-          </h3>
-          <p className="text-gray-400 text-sm font-medium px-2 mt-2">₹1,399</p>
-        </div>
 
-        {/* Card 2 */}
+        {/* Card 1 */}
+
+        {audio.map((audio) => (
+          <ProductCard key={audio.image} {...audio} />
+        ))}
+
+
+
+        {/* Card 2
         <div className="bg-white text-black rounded-xl shadow-lg p-4 transition-transform transform hover:scale-105 w-full sm:w-72 mx-auto">
           <img
             src={product2}
@@ -59,7 +58,7 @@ function ViewAll() {
           <p className="text-gray-400 text-sm font-medium px-2 mt-2">₹3,499</p>
         </div>
 
-        {/* Card 3 */}
+        Card 3
         <div className="bg-white text-black rounded-xl shadow-lg p-4 transition-transform transform hover:scale-105 w-full sm:w-72 mx-auto">
           <img
             src={product3}
@@ -72,7 +71,7 @@ function ViewAll() {
           <p className="text-gray-400 text-sm font-medium px-2 mt-2">₹1,399</p>
         </div>
 
-        {/* Card 4 */}
+        Card 4
         <div className="bg-white text-black rounded-xl shadow-lg p-4 transition-transform transform hover:scale-105 w-full sm:w-72 mx-auto">
           <img
             src={product4}
@@ -83,7 +82,7 @@ function ViewAll() {
             ZG27 - Wired music headphones with adjus...
           </h3>
           <p className="text-gray-400 text-sm font-medium px-2 mt-2">₹1,399</p>
-        </div>
+        </div> */}
       </div>
 
 

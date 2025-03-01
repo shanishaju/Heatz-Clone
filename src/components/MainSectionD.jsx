@@ -24,7 +24,7 @@ function MainSectionD() {
                     </Box>
                 </Box>
                 {/* swiper */}
-                <div className="w-full h-screen mt-20">
+                <div className="w-full h-auto mt-20">
                     <Swiper
                         slidesPerView={1}
                         loop={true}

@@ -26,7 +26,7 @@ function MainSection() {
                 </Box>
             </Box>
             {/* swiper */}
-            <div className="w-full h-screen mt-20">
+            <div className="w-full h-auto mt-20">
                 <Swiper
                     slidesPerView={1}
                     loop={true}
@@ -34,8 +34,8 @@ function MainSection() {
                     // navigation={true}
                     // pagination={{ clickable: true }} 
                     modules={[Autoplay, Navigation, Pagination]}
-                    className="w-full"
-                    >
+                        className="w-full"
+                >
                     <SwiperSlide className="relative">
                         <img src={swiperImg4} alt="Image 1" className="w-full h-full object-cover" />
                         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
