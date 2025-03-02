@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import MainSection from "./components/MainSection";
 import MainSectionD from "./components/MainSectionD";
 import Nav from "./components/Nav";
@@ -17,6 +18,7 @@ function App() {
       <MainSectionD/>
       <ViewAllD/>
       <VideoCard/>
+      <Footer/>
     </div>
   );
 }

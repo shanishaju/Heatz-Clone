@@ -42,7 +42,7 @@ function MainSection() {
                             <h1 className="text-sm font-extralight sm:text-lg md:text-2xl lg:text-4xl xl:text-5xl drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
                                 Hear every move, win <br /> every game.
                             </h1>
-                            <button className="mt-4 px-4 sm:px-6 py-1 sm:py-2  border border-white text-white text-xs sm:text-sm md:text-sm lg:text-lg xl:text-lg  rounded-full bg-transparent hover:border-0 hover:bg-green-400 hover:text-black drop-shadow-lg transition-all duration-300 ease-in-out">
+                            <button className="mt-4 px-4 sm:px-6 py-1 sm:py-2  border border-white text-white text-xs sm:text-sm md:text-sm lg:text-lg xl:text-lg  rounded-full bg-transparent hover:border-green-400 hover:bg-green-400 hover:text-black drop-shadow-lg transition-all duration-300 ease-in-out">
                                 See it in action
                             </button>
                         </div>
@@ -54,7 +54,7 @@ function MainSection() {
                             <h1 className="text-sm font-extralight sm:text-lg md:text-2xl lg:text-4xl xl:text-5xl drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] ">
                                 Precision sound for <br /> ultimate gaming.
                             </h1>
-                            <button className="mt-4 px-4 sm:px-6 py-1 sm:py-2 border border-white text-white text-xs sm:text-sm md:text-lg lg:text-lg xl:text-lg rounded-full bg-transparent hover:border-0 hover:bg-green-400 hover:text-black drop-shadow-lg transition-all duration-300 ease-in-out">
+                            <button className="mt-4 px-4 sm:px-6 py-1 sm:py-2 border border-white text-white text-xs sm:text-sm md:text-lg lg:text-lg xl:text-lg rounded-full bg-transparent hover:border-green-400 hover:bg-green-400 hover:text-black drop-shadow-lg transition-all duration-300 ease-in-out">
                                 See it in action
                             </button>
                         </div>
