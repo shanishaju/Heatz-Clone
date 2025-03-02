@@ -11,10 +11,10 @@ function Nav() {
                 </div>
 
                 <ul className="hidden md:flex space-x-10 text-green-400 text-lg font-light">
-                    <li className="hover:text-white cursor-pointer transition">Audio</li>
-                    <li className="hover:text-white cursor-pointer transition">Wearables</li>
-                    <li className="hover:text-white cursor-pointer transition">Accessories</li>
-                    <li className="hover:text-white cursor-pointer transition">Contact Us</li>
+                    {['Audio', 'Wearables', 'Accessories', 'Contact Us'].map((item) => (
+                        <li className="hover:text-white cursor-pointer transition">{item}</li>
+                    ))}
+
                 </ul>
 
                 <div className="flex space-x-8 text-green-400 text-xl">
