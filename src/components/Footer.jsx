@@ -65,7 +65,7 @@ function Footer() {
 
                 {/* CopyrightSection */}
                 <div className="text-center text-gray-400 text-sm mt-10 border-t border-gray-700 pt-5">
-                    Copyright © 2024 Heatz - All rights reserved. | Developed by <span className="text-teal-400">Shani</span>
+                    Copyright © 2024 Heatz-Clone - All rights reserved. | Developed by <span className="text-teal-400">Shani</span>
                 </div>
             </footer>
 

@@ -27,7 +27,7 @@ function Banner() {
             <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-[rgba(49,49,49,0.8)] px-6 py-1 rounded-full text-black text-lg  shadow-md">
                 <div className="flex space-x-6">
                     {images.map((item, index) => (
-                        <div key={index} className="group flex flex-col items-center transition-transform duration-300 hover:-translate-y-10 hover:scale-110">
+                        <div key={index} className="group flex flex-col items-center transition-transform duration-300 hover:-translate-y-10 ">
                             {/* Image */}
                             <img
                                 src={item.src}
