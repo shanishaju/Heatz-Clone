@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import image from "../assets/ZG27. 1.JPG";
+import image from "../assets/ZG27.1.JPG";
 import video from "../assets/video2.mp4";
 import ProductCard from "./ProductCard";
 import { audio, featured } from "../staticData";
