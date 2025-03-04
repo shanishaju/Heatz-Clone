@@ -32,16 +32,17 @@ function ViewAllD() {
       {/* Image and video  */}
       <div className="grid grid-cols-1 lg:grid-cols-2 mt-24 min-h-[90vh] w-full gap-2 bg-black">
         <div className="flex items-center justify-center h-full">
-          <img src={image} alt="image1" className="w-full h-165 object-cover" />
+          <img src={image} alt="image1" className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover"
+          />
         </div>
-        <div className="flex items-center justify-center h-165">
+        <div className="flex items-center justify-center h-full">
           <video
             src={video}
             autoPlay
             loop
             muted
             playsInline
-            className="w-full h-full object-cover"
+            className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover"
           ></video>
         </div>
       </div>
