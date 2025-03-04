@@ -1,12 +1,50 @@
-# React + Vite
+# Heatz Clone Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make sure you have **Node.js** installed. 
 
-## Expanding the ESLint configuration
+```sh
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Dependencies & Setup
+
+
+### Tailwind CSS  
+[Official Docs](https://tailwindcss.com/docs/installation/using-vite)  
+Install Tailwind and initialize configuration files:
+
+```sh
+npm install tailwindcss @tailwindcss/vite
+
+```
+
+### Swiper  
+[Official Docs](https://swiperjs.com/get-started)  
+Install Swiper for responsive sliders:
+
+```sh
+npm install swiper
+```
+
+### Material UI  
+[Official Docs](https://mui.com/material-ui/getting-started/installation/)  
+Install Material UI components:
+
+```sh
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+## Start the Development Server
+
+Run the following command to start the Vite development server:
+
+```sh
+npm run dev
+```
+
+
+
