@@ -29,11 +29,13 @@ function MainSectionD() {
                 <Box display="grid" gridTemplateColumns={{ xs: "1fr", md: "1fr 1fr" }} gap={3} >
                     <Box >
                         <h1 className="text-xl md:text-4xl font-bold leading-tight">
-                            Moving with you,<br /> through life.                        </h1>
+                            Moving with you,<br /> through life.
+                        </h1>
                     </Box>
                     <Box>
                         <p className="text-lg md:text-xl  leading-tight">
-                            Designed to move with you through every moment, offering advanced features that fit perfectly into life. Enjoy efficiency and stay stylish!                        </p>
+                            Designed to move with you through every moment, offering advanced features that fit perfectly into life. Enjoy efficiency and stay stylish!
+                        </p>
                     </Box>
                 </Box>
                 {/* swiper */}
@@ -41,7 +43,7 @@ function MainSectionD() {
                     <Swiper
                         slidesPerView={1}
                         loop={true}
-                        autoplay={{ delay: 3500 }} // Autoplay 
+                        autoplay={{ delay: 3500 }}
                         // navigation={true}
                         // pagination={{ clickable: true }} 
                         modules={[Autoplay, Navigation, Pagination]}

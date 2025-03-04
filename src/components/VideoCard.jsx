@@ -20,7 +20,6 @@ import video10 from "../assets/video10.mp4";
 function VideoCard() {
     return (
         <div className="bg-black text-white py-20 px-6 sm:px-12 md:px-20 lg:px-32">
-            {/* Heading & Description */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <h1 className="text-2xl md:text-5xl font-bold">Trending</h1>
                 <p className="text-lg md:text-xl">
@@ -28,7 +27,7 @@ function VideoCard() {
                 </p>
             </div>
 
-            {/* Video Swiper */}
+            {/* Video swiper */}
             <div className="w-full mt-10">
                 <Swiper
                     spaceBetween={10}

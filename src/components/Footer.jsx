@@ -6,13 +6,11 @@ function Footer() {
             <footer className="bg-black text-gray-300 py-10 px-15">
                 {/* MainDiv */}
                 <div className=" mx-auto flex flex-col md:flex-row justify-between ">
-                    {/* DescriptionDiv */}
                     <div className="md:w-1/2">
                         <h2 className="text-green-400 text-3xl font-bold">HEATZ</h2>
                         <p className="mt-4 text-sm">
                             Heatz® is a registered brand of Ashtelgroup. It is registered in different countries including Saudi Arabia and UAE, especially in the Middle East. Heatz® is well known for its variety and quality of products launched in every season.
                         </p>
-                        {/* Form */}
                         <div className="mt-6 flex items-center border-b border-gray-400 pb-2 w-full">
                             <input type="email" placeholder="Enter your email" className="bg-transparent w-full outline-none text-white" />
                             <button className="text-green-400 text-xl hover:cursor-pointer">&#10148;</button>
@@ -25,9 +23,7 @@ function Footer() {
                         </div>
                     </div>
 
-                    {/* LinksSection */}
                     <div className="flex flex-wrap md:flex-nowrap gap-10 md:gap-16 mt-10 md:mt-0">
-                        {/* MobileAcc*/}
                         <div>
                             <h3 className="text-white font-semibold mb-3">Mob Acc</h3>
                             <ul className="space-y-2 text-sm ">
@@ -37,7 +33,6 @@ function Footer() {
                             </ul>
                         </div>
 
-                        {/* ComputerAcc*/}
                         <div>
                             <h3 className="text-white font-semibold mb-3">Com Acc</h3>
                             <ul className="space-y-2 text-sm">
@@ -49,7 +44,6 @@ function Footer() {
                             </ul>
                         </div>
 
-                        {/* Help Section */}
                         <div>
 
                             <h3 className="text-white font-semibold mb-3">Help</h3>
